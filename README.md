@@ -16,9 +16,9 @@ If you found this work to be useful in your own research, please consider citing
 @inproceedings{liu2023discovering,
   author = {Fangfu Liu, Wenchang Ma, An Zhang, Xiang Wang, Yueqi Duan, Tat-Seng Chua},
   title = {Discovering Dynamic Causal Space for DAG Structure Learning},
-  booktitle    = {KDD},
-  publisher    = {{ACM}},
-  year         = {2023}
+  booktitle = {KDD},
+  publisher = {{ACM}},
+  year = {2023}
 }
 ```
 
