@@ -10,5 +10,17 @@ Discovering causal structure from purely observational data (i.e., causal discov
   <img src="files/CASPER.png"/>
 </div>
 
+## Citation
+If you found this work to be useful in your own research, please consider citing the following:
+```
+@inproceedings{liu2023discovering,
+  author = {Fangfu Liu, Wenchang Ma, An Zhang, Xiang Wang, Yueqi Duan, Tat-Seng Chua},
+  title = {Discovering Dynamic Causal Space for DAG Structure Learning},
+  booktitle    = {KDD},
+  publisher    = {{ACM}},
+  year         = {2023}
+}
+```
+
 ## Code
 Comming soon.
