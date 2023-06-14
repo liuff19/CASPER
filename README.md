@@ -10,6 +10,20 @@ Discovering causal structure from purely observational data (i.e., causal discov
   <img src="files/CASPER.png"/>
 </div>
 
+## Requirements
+
+- Python 3.7+
+- `numpy`
+- `scipy`
+- `python-igraph`: Install [igraph C core](https://igraph.org/c/) and `pkg-config` first.
+- `torch`: Optional, only used for nonlinear model.
+
+
+## Acknowledgement
+This repo benefits from [notears](https://github.com/xunzheng/notears) and [Causal Disocvery Toolbox](https://fentechsolutions.github.io/CausalDiscoveryToolbox/html/index.html). Thanks for their wonderful works.
+
+
+
 ## Citation
 If you found this work to be useful in your own research, please consider citing the following:
 ```
