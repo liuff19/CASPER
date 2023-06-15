@@ -18,6 +18,18 @@ Discovering causal structure from purely observational data (i.e., causal discov
 - `python-igraph`: Install [igraph C core](https://igraph.org/c/) and `pkg-config` first.
 - `torch`: Optional, only used for nonlinear model.
 
+## Running a Simple demo
+The simplest way to try out CASPER is to run a simple example:
+```
+python casper_main.py --iter_mod 7 --run_mode 0 --linear --modeltype notears --s0 40 \
+    --d 10 --n 2000 --trial 5 --seed 0 \
+    --lambda1 0.002 --lambda2 0.002  --graph_type "ER" --batch_size 500
+```
+## Experimental Result
+We show experimental results on linear settings for ER graphs of 10, 20, 50 nodes here. More results of nonlinear settings and other graph types can be found in our paper.
+<div align="center">
+  <img src="files/linear-setting.png"/>
+</div>
 
 ## Acknowledgement
 This repo benefits from [notears](https://github.com/xunzheng/notears) and [Causal Disocvery Toolbox](https://fentechsolutions.github.io/CausalDiscoveryToolbox/html/index.html). Thanks for their wonderful works.
@@ -36,5 +48,5 @@ If you found this work to be useful in your own research, please consider citing
 }
 ```
 
-## Code
-Comming soon.
+## Contact
+If you have any question about this project, please feel free to contact liuff19@mails.tsinghua.edu.cn.
